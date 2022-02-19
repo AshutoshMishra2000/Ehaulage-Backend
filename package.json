@@ -1,0 +1,23 @@
+{
+  "name": "e_commerce_clone_backend",
+  "version": "1.0.0",
+  "description": "\"E_commerce Website\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.server.js"
+  },
+  "author": "\"Ashutosh Mishra\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.5"
+  }
+}
